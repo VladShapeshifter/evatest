@@ -2,7 +2,7 @@
 
 <suite name="Registration/Login" verbose="1" >
     <test name="Log In [Chrome]" >
-        <parameter name="browser" value="chrome" />
+        <parameter name="browser" value="chrome win" />
         <!--configure test to execute testing script using Chrome browser-->
         <classes>
             <class name="evaautomation.tests.Login" />
